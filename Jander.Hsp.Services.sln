@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jander.Hsp.Services", "Jander.Hsp.Services\Jander.Hsp.Services.csproj", "{4E8C2702-8A73-4781-A4EC-7551C111D686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E06EFD75-846F-4A29-8580-8D5D9866CFA5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{CF0CF52B-6BDC-4FED-B655-4B42E18760D1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JanderHspServices-WAWS-dev.json = PublishScripts\Configurations\JanderHspServices-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jander.Hsp.Services.Tests", "Jander.Hsp.Services.Tests\Jander.Hsp.Services.Tests.csproj", "{B1594E48-ADC5-4027-A1D3-B1C1453BEF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E8C2702-8A73-4781-A4EC-7551C111D686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8C2702-8A73-4781-A4EC-7551C111D686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8C2702-8A73-4781-A4EC-7551C111D686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8C2702-8A73-4781-A4EC-7551C111D686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1594E48-ADC5-4027-A1D3-B1C1453BEF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1594E48-ADC5-4027-A1D3-B1C1453BEF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1594E48-ADC5-4027-A1D3-B1C1453BEF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1594E48-ADC5-4027-A1D3-B1C1453BEF25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF0CF52B-6BDC-4FED-B655-4B42E18760D1} = {E06EFD75-846F-4A29-8580-8D5D9866CFA5}
+	EndGlobalSection
+EndGlobal
